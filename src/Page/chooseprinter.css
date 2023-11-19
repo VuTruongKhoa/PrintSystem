@@ -1,0 +1,97 @@
+.container-search{
+    display: block;
+    padding-left: 147px;
+    padding-top: 32px;
+}
+
+.search-input{
+    width: 1022px;
+    height: 46px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+}
+
+.btn-search{
+    margin-left: 25px;
+    width: 172px;
+    height: 46px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+}
+
+.btn{
+    width: 172px;
+    height: 46px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+    margin-right: 47px;
+}
+
+.btn-select{
+    margin-left: 172px;
+    margin-right: 0;
+}
+.container-btn{
+    padding-left: 147px;
+    padding-top: 46px;
+    padding-bottom: 57px;
+}
+
+.printer{
+    width: 285px !important;
+    height: 216px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+    margin: 0 31.5px 0 31.5px;
+}
+
+.container-print{
+    display: block;
+    position: relative;
+    margin: 23px 31.5px 23px 31.5px;
+    padding-top: 46px ;
+}
+
+.img{
+    width: 129px;
+    height: 78px;
+    background: #D9D9D9;
+    margin: 18px 78px 0px 78px;
+    padding: 0;
+}
+
+.ID{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 19px;
+    padding: 0;
+}
+
+.btn-more{
+    width: 172px;
+    height: 46px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+    margin: 0px 56px 18px 57px;
+    padding: 0;
+}
+
+.btn-goback{
+    position: absolute;
+    bottom: -200px;
+    left: 22px;
+}
+
+.full{
+    display: block;
+}

@@ -1,0 +1,40 @@
+.btn-logout{
+    width: 172px;
+    height: 46px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+}
+
+.btn-big{
+    width: 320px;
+    height: 210px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+.spsohomepage{
+    position:relative;
+}
+.header{
+    position: absolute;
+    left: 640px;
+    top: 100px;
+}
+
+.container{
+    position: absolute;
+    top: 192px;
+    right: 63px;
+}
+
+.font{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

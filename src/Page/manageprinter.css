@@ -1,0 +1,67 @@
+.btn-logout, .btn-goback{
+    width: 172px;
+    height: 46px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+}
+
+.btn-goback{
+    position: absolute;
+    bottom: -500px;
+    left: 419px;
+}
+
+.btn-big{
+    width: 418px;
+    height: 210px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: rgba(0, 0, 0, 0.00);
+}
+
+.manageprinter{
+    position:relative;
+}
+.header{
+    position: absolute;
+    left: 348px;
+    top: 0px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container{
+    display: block;
+    position: absolute;
+    top: 192px;
+    right: 63px;
+}
+
+.font{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-manage{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+
+.btn-add-new{
+    position: absolute;
+    top: 150px;
+    right: 130px;
+}
+

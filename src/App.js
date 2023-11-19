@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import {Routes, Route, Link} from 'react-router-dom'
+
+import LoginPage from "./Page/loginpage";
+import SpsoHomePage from "./Page/spsohomepage";
+import HcmutHomePage from "./Page/hcmuthomepage";
+import ManagePrinter from "./Page/manageprinter";
+import CurrentPrinter from "./Page/curentprinter";
+import SelectionMode from "./Page/SelectionMode";
+import Upload from "./Page/upload";
+import ChoosePrinter from "./Page/chooseprinter";
+import ViewEdit from "./Page/viewedit";
+import AddNewPrinter from "./Page/addnewprinter";
+import PrintDoc from "./Page/printdoc";
+import Specify from "./Page/specify";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes>
+        <Route path='/SpsoHome' element = {<SpsoHomePage/>}/>
+      </Routes>
+      
   );
 }
 

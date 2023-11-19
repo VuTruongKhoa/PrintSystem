@@ -1,0 +1,23 @@
+.container{
+    width: 544px;
+    height: 220px;
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #FFF;
+    display: block;
+    position: relative;
+    top: 245px;
+    right: 0px;
+}
+
+.btn-choosefile{
+    position: absolute;
+    top: 43px;
+    right: 130px;
+}
+
+.btn-upload{
+    position: absolute;
+    top: 125px;
+    right: 130px;
+}
