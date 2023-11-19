@@ -1,4 +1,4 @@
-import {Routes, Route, Link} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 
 import LoginPage from "./Page/loginpage";
 import SpsoHomePage from "./Page/spsohomepage";
@@ -15,10 +15,7 @@ import Specify from "./Page/specify";
 
 function App() {
   return (
-      <Routes>
-        <Route path='/SpsoHome' element = {<SpsoHomePage/>}/>
-      </Routes>
-      
+    <SpsoHomePage />      
   );
 }
 
