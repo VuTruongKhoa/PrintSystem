@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Printer Management</title>
+  <link rel="stylesheet" type="text/css" href="SelectionMode.css"> 
+</head>
+<body>
+  <div class="container-search">
+    <div>
+      <label for="campus">Campus:</label>
+      <select id="campus"></select>
+    </div>
+    <div>
+      <label for="building">Building:</label>
+      <select id="building"></select>
+    </div>
+    <div>
+      <label for="room">Room:</label>
+      <input type="text" id="room">
+    </div>
+    <button class="btn-search">Filter</button>
+  </div>
+
+  <div class="container-printers">
+    <!-- Thông tin về các printer -->
+    <div class="printer">
+      <div class="container-print">
+        <div class="img"></div>
+        <div class="ID">Printer ID</div>
+        <button class="btn-more">More</button>
+      </div>
+    </div>
+    
+    <!-- Thông tin về các printer -->
+    <div class="printer">
+        <div class="container-print">
+          <div class="img"></div>
+          <div class="ID">Printer ID</div>
+          <button class="btn-more">More</button>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="container-btns">
+    <!-- Các button -->
+    <button class="btn btn-goback">Go Back</button>
+    <button class="btn btn-logout">Logout</button>
+    <button class="btn btn-enable">ENABLE</button>
+    <button class="btn btn-disable">DISABLE</button>
+    <button class="btn btn-delete">DELETE</button>
+    <button class="btn btn-cancel">CANCEL</button>
+  </div>
+</body>
+</html>

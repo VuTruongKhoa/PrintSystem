@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SPECIFY PRINTING PROPERTIES</title>
+  <link rel="stylesheet" type="text/css" href="specify.css"> <!-- Liên kết đến file CSS của bạn -->
+</head>
+<body>
+  <div class="cover">
+    <div class="container-input">
+      <div class="header-name">SPECIFY PRINTING PROPERTIES</div>
+      
+      <div class="group-short">
+        <div class="input-group-text same-input">Double/One-sided</div>
+            <!-- Double/One-sided options -->
+            <select class="input-group-text same-input">
+                <option value="double">Double</option>
+                <option value="one-sided">One-sided</option>
+            </select>
+
+        <div class="input-group-text same-input">Page size</div>
+            <!-- Page size options -->
+            <select class="input-group-text same-input">
+                <option value="A4">A4</option>
+                <option value="Letter">Letter</option>
+            </select>
+
+        <div class="input-group-text same-input">Print range</div>
+            <!-- Print range options -->
+            <div class="print-range">
+                <label class="input-group-text same-input">
+                    <input type="radio" name="range" value="all-pages"> All pages
+                </label>
+                <label class="input-group-text same-input">
+                    <input type="radio" name="range" value="specific-pages"> Pages
+                    <input type="text" class="page">
+                </label>
+            </div>
+        <div class="input-group-text same-input">Number of copies</div>
+            <input type="text" class="input-group-text same-input">
+      </div>
+      
+      <!-- Buttons: Go Back, Save, Logout -->
+      <button class="btn btn-goback">Go Back</button>
+      <button class="btn btn-save">Save</button>
+      <button class="btn btn-logout">Logout</button>
+    </div>
+  </div>
+</body>
+</html>
